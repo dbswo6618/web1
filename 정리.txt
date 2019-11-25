@@ -1,0 +1,41 @@
+TAG('<''>') - 마지막 '/' 필수, (직접 해보고 추론이 중요)
+
+<strong> ... </strong>  - 진하게
+
+<u>...</u> - 밑줄
+
+<h1>This is heading 1</h1> - 제목(1-6 크기순)
+<h2>This is heading 2</h2>    
+<h3>This is heading 3</h3>     1>2>3>4>5>6
+<h4>This is heading 4</h4>
+<h5>This is heading 5</h5>
+<h6>This is heading 6</h6>
+
+<br> - 한줄빈공간..
+
+<p>...</p> - 단락       *CSS로 정교하게 표현가능
+
+<img src="그림이름.jpg" width="100%"> - 그림 넣기&그림 크기
+
+<li>...</li> - 리스트            li와 ul,ol은 부모자식
+<ul>  </ul> - 리스트 그룹..
+<ol>  </ol> - Ordered 그룹..
+
+<table>  </table> - 표                  3개가 부모자식
+<tr>  </tr> - 열.. 위에서 부터 순서대로
+<td>...</td> - 칸.. 오른쪽으로
+
+맨 처음 - <!DOCTYPE html> 국룰
+
+그 다음<html>
+
+본문 설명 - <head>
+<title>...</title> - 표지
+<meta charset="utf-8"> - utf-8로 읽어주라 명령
+
+본문 - <body>...</body>
+
+<a>...</a> - 링크
+<a href="주소"> - 그 주소로 링크
+<a href="주소" target="_blank"> - 새 창으로 열기
+<a href="주소" title="설명"> - 클릭 전 링크 정보 알려주기
